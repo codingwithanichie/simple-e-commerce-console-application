@@ -58,8 +58,6 @@ const products = [
           displayProducts();
           break;
         case 2:
-        //   const productId = parseInt(prompt('Enter product ID to add to cart:'), 10);
-        //   addToCart(productId);
             addToCart();
           break;
         case 3:
@@ -78,6 +76,6 @@ const products = [
     }
   }
   
-  // Run the application
+  
   main();
   
